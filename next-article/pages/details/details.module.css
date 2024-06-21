@@ -1,0 +1,41 @@
+.singlePost {
+  padding: 0;
+  background: #fff;
+}
+.singlePost .right {
+  margin-top: 50px;
+}
+.singlePost img {
+  width: 100%;
+  height: 100%;
+}
+.singlePost h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+@media screen and (max-width: 576px) {
+  .singlePost h1 {
+    font-size: 24px;
+  }
+}
+.singlePost p {
+  margin: 20px 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 576px) {
+  .singlePost p {
+    font-size: 16px;
+  }
+}
+.singlePost .content {
+  width: 100%;
+  padding: 2rem;
+}
+
+.container__content {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=details.module.css.map */

@@ -1,0 +1,39 @@
+@import "../../styles/_variables.scss";
+
+.nav__icon {
+  width: auto;
+  height: 5rem;
+  color: $primary-color;
+}
+
+.nav__label {
+  color: $secondary-color;
+  font-family: "Yaldevi";
+}
+
+header.active {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 0 4px 0 rgba(115, 115, 115, 0.2);
+  z-index: 9999;
+  background: $secondary-color;
+}
+
+.nav__bar {
+  width: 100%;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+@media screen and (max-width: 992px) {
+  .nav__icon {
+    display: none;
+  }
+}

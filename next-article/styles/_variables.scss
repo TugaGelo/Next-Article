@@ -1,0 +1,32 @@
+/*=============== VARIABLES CSS ===============*/
+$header-height: 3rem;
+
+/*========== Colors ==========*/
+$primary-color: #C89B3C;
+$secondary-color: #F0E6D2;
+$box-shadow-color: rgb(0 0 0 / 8%);
+$card-bg-color: black;
+
+/*========== Font and typography ==========*/
+$header-font: "Source Serif";
+
+
+/*.5rem = 8px | 1rem = 16px ...*/
+$h1-font-size: 2.25rem;
+$h2-font-size: 1.5rem;
+$h3-font-size: 1.25rem;
+$normal-font-size: 1rem;
+$small-font-size: 0.875rem;
+$smaller-font-size: 0.813rem;
+$tiny-font-size: 0.625rem;
+
+/* Responsive typography */
+@media screen and (max-width: 992px) {
+  $big-font-size: 2.75rem;
+  $h1-font-size: 1.5rem;
+  $h2-font-size: 1.25rem;
+  $h3-font-size: 1rem;
+  $normal-font-size: 0.938rem;
+  $small-font-size: 0.813rem;
+  $smaller-font-size: 0.75rem;
+}

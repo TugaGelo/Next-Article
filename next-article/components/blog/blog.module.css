@@ -1,0 +1,33 @@
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*========== Font and typography ==========*/
+/*.5rem = 8px | 1rem = 16px ...*/
+/* Responsive typography */
+.blog {
+  margin: 2rem 0;
+}
+.blog .boxItems {
+  transition: 0.5s;
+}
+.blog .boxItems:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+.blog img {
+  width: 100%;
+  height: 17.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.blog .icon {
+  margin-right: 0.25rem;
+  font-size: 1.5rem;
+}
+.blog .card__title {
+  font-family: "Source Serif";
+  padding: 0 4rem;
+}
+.blog .ui.card {
+  background-color: black;
+}/*# sourceMappingURL=blog.module.css.map */
