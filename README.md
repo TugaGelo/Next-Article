@@ -56,6 +56,19 @@ This is a website dedicated to articles about Bilgewater, built with Next.js and
 
 ## Screenshots
 
+![Screenshot 1](next-article/screenshots/1.png)
+
+![Screenshot 1](next-article/screenshots/2.png)
+
+![Screenshot 1](next-article/screenshots/3.png)
+
+![Screenshot 1](next-article/screenshots/5.png)
+
+![Screenshot 1](next-article/screenshots/6.png)
+
+![Screenshot 1](next-article/screenshots/7.png)
+
+![Screenshot 1](next-article/screenshots/8.png)
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
